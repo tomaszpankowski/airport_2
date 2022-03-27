@@ -7,8 +7,8 @@ import {Link} from "react-router-dom";
 class Footer extends Component{
     render(){
         return(      
-            <footer className="text-white border-top bg-dark fixed-bottom opacity-8 py-1">
-                <Container fluid className="z-index-0 text-shadow">
+            <footer className="text-white border-top bg-dark border-secondary opacity-8 py-1">
+                <Container fluid className="z-index-0">
                     <Row className="mx-0 text-center w-100">
                         <Col xs={10} className="mx-auto">
                             <small className="my-0 text-white">
